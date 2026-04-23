@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.4.0](https://github.com/1dot5/da/compare/design-assistant-v0.3.0...design-assistant-v0.4.0) (2026-04-23)
+
+
+### Features
+
+* deploy ([ddccb5a](https://github.com/1dot5/da/commit/ddccb5a17f31ae70b183f566c7047dbc57d9c6a4))
+* deploy ([9fe7f11](https://github.com/1dot5/da/commit/9fe7f112878ef2d2afb09e599b9f0f6c3e740483))
+* docs-update ([deef16b](https://github.com/1dot5/da/commit/deef16b21845157caef09e0dc64e759f0011000f))
+* docs-update ([dbfd1f7](https://github.com/1dot5/da/commit/dbfd1f777d16a0124b1bd7ae14e5738864c4d62e))
+
 ## [0.3.0](https://github.com/1dot5/da/compare/design-assistant-v0.2.1...design-assistant-v0.3.0) (2026-04-23)
 
 
