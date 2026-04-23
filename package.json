@@ -1,6 +1,6 @@
 {
   "name": "@1dot5/design-assistant",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Design assistant agents, skills, and conventions for Next.js 16 + React 19 projects",
   "license": "MIT",
   "type": "module",
