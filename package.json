@@ -1,0 +1,19 @@
+{
+  "name": "@1dot5/design-assistant",
+  "version": "0.1.0",
+  "description": "Design assistant agents, skills, and conventions for Next.js 16 + React 19 projects",
+  "license": "MIT",
+  "type": "module",
+  "files": [
+    "AGENTS.md",
+    ".agent",
+    ".claude/skills"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "packageManager": "pnpm@9.0.0",
+  "publishConfig": {
+    "access": "public"
+  }
+}
