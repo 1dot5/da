@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.3.0](https://github.com/1dot5/da/compare/design-assistant-v0.2.1...design-assistant-v0.3.0) (2026-04-23)
+
+
+### Features
+
+* cli ([d58d9e5](https://github.com/1dot5/da/commit/d58d9e52e1b21e94cd7adaeeb2399c02fecbdb6b))
+* cli ([2edc566](https://github.com/1dot5/da/commit/2edc566156dae71b07e90bbdd8011f0692b13562))
+
 ## [0.2.1](https://github.com/1dot5/da/compare/design-assistant-v0.2.0...design-assistant-v0.2.1) (2026-04-23)
 
 
