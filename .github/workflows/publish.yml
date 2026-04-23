@@ -30,6 +30,9 @@ jobs:
 
       - run: pnpm install
 
+      - name: Verify aliases match repo symlinks
+        run: pnpm run verify:aliases
+
       - name: Verify package contents
         run: |
           set -euo pipefail
@@ -37,6 +40,20 @@ jobs:
           tgz=$(ls /tmp/pkg/*.tgz | head -n 1)
           echo "Package: $tgz"
           tar -tzf "$tgz"
+
+      - name: Smoke test CLI from packed tarball
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/pkg-extract
+          tgz=$(ls /tmp/pkg/*.tgz | head -n 1)
+          tar -xzf "$tgz" -C /tmp/pkg-extract
+          node /tmp/pkg-extract/package/bin/cli.js /tmp/da-dest
+          test -f /tmp/da-dest/AGENTS.md
+          test -f /tmp/da-dest/.agent/review.md
+          test -f /tmp/da-dest/.claude/CLAUDE.md
+          test -f /tmp/da-dest/.claude/skills/ui-designer/SKILL.md
+          # Re-running must be idempotent (exit 0, no writes).
+          node /tmp/pkg-extract/package/bin/cli.js /tmp/da-dest
 
   release-please:
     needs: ci

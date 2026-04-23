@@ -12,11 +12,19 @@
   },
   "license": "MIT",
   "type": "module",
+  "bin": {
+    "design-assistant": "./bin/cli.js"
+  },
   "files": [
     "AGENTS.md",
-    ".agent",
-    ".claude/skills"
+    "README.md",
+    ".claude/skills",
+    "bin"
   ],
+  "scripts": {
+    "verify:aliases": "node scripts/verify-aliases.mjs",
+    "smoke": "rm -rf .smoke && node bin/cli.js .smoke && rm -rf .smoke"
+  },
   "engines": {
     "node": ">=20"
   },
