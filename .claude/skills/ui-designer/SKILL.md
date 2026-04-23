@@ -373,7 +373,6 @@ Props を足す前に問う 3 つ：
 
 ## 参照・引き継ぎ
 
-- 詳細な判断ルール：[.agent/design.md](../../../.agent/design.md)
 - レビュー観点・a11y・チェックリスト：[.agent/review.md](../../../.agent/review.md)
 - コンポーネント詳細（配置・CVA・shadcn）：`component-architect` skill
 - コード翻訳：`design-to-code` skill
