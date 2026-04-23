@@ -2,6 +2,14 @@
   "name": "@1dot5/design-assistant",
   "version": "0.2.0",
   "description": "Design assistant agents, skills, and conventions for Next.js 16 + React 19 projects",
+  "homepage": "https://github.com/1dot5/da#readme",
+  "bugs": {
+    "url": "https://github.com/1dot5/da/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1dot5/da.git"
+  },
   "license": "MIT",
   "type": "module",
   "files": [
