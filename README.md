@@ -1,4 +1,4 @@
-# design-assistant
+# Design assistant
 
 Next.js 16 + React 19 プロジェクト向けに、シニアデザイナー兼フロントエンドエンジニアとしての規約・Skill・ワークフローを一式ばらまくための CLI。
 
